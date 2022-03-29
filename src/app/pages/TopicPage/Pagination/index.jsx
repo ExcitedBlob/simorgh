@@ -3,7 +3,13 @@ import styled from '@emotion/styled';
 import clamp from 'ramda/src/clamp';
 import { number } from 'prop-types';
 import { getSansBold } from '@bbc/psammead-styles/font-styles';
-import { C_EBON, C_WHITE } from '@bbc/psammead-styles/colours';
+import {
+  C_DIM_GREY,
+  C_EBON,
+  C_GREY_11,
+  C_PHILIPPINE_GREY,
+  C_WHITE,
+} from '@bbc/psammead-styles/colours';
 
 import {
   GEL_GROUP_2_SCREEN_WIDTH_MIN,
@@ -65,13 +71,13 @@ const Block = styled.li`
 
 const ActiveBlock = styled(Block)`
   color: ${C_WHITE};
-  background: #696969;
+  background: ${C_DIM_GREY};
 `;
 const UnavailableBlock = styled(Block)`
-  color: #bababa;
+  color: ${C_GREY_11};
 `;
 const EllipsisBlock = styled(Block)`
-  color: #8a8c8e;
+  color: ${C_PHILIPPINE_GREY};
   background: unset;
 `;
 

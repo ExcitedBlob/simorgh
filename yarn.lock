@@ -2105,6 +2105,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@bbc/psammead-styles@npm:8.1.0":
+  version: 8.1.0
+  resolution: "@bbc/psammead-styles@npm:8.1.0"
+  peerDependencies:
+    "@emotion/react": ^11.1.4
+    react: ">=16.9.0"
+  checksum: 1e2b2769c80c2dd198ef96430379f89ce6f6bd0fda2e3c85b4c423ebd31226225c83dcfb6ef19142cc365a425e88a52bfc10cce81e9841ebd52da3b3927c788d
+  languageName: node
+  linkType: hard
+
 "@bbc/psammead-test-helpers@npm:6.0.5":
   version: 6.0.5
   resolution: "@bbc/psammead-test-helpers@npm:6.0.5"
@@ -19063,7 +19073,7 @@ __metadata:
     "@bbc/psammead-story-promo": 8.0.37
     "@bbc/psammead-story-promo-list": 6.0.31
     "@bbc/psammead-storybook-helpers": 9.0.17
-    "@bbc/psammead-styles": 8.0.2
+    "@bbc/psammead-styles": 8.1.0
     "@bbc/psammead-test-helpers": 6.0.5
     "@bbc/psammead-timestamp": 4.0.29
     "@bbc/psammead-timestamp-container": 5.1.0
