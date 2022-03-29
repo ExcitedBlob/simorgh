@@ -95,7 +95,7 @@ const A = styled.a`
   height: 100%;
   width: 100%;
   &:hover {
-    color: white;
+    color: ${C_WHITE};
     background: #5a5a5a;
   }
 `;
